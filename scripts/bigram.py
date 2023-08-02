@@ -132,8 +132,8 @@ def get_batch(is_training: bool = True) -> Tuple[Tensor, Tensor]:
     The resultant batch (xb) would look something like:
     xb = [
           [1, 2, 3, 4],  <---- sequence 1 (batch 1)
-          [8, 9, 10, 11],  <---- sequence 2 (batch 2)
-          [15, 16, 17, 18]  <---- sequence 3 (batch 3)
+          [8, 9, 10, 11],  <---- sequence 2 (batch 1)
+          [15, 16, 17, 18]  <---- sequence 3 (batch 1)
          ]
     Each inner list is a sequence of length 'block_size', and there are 'batch_size' number of such lists.
     :param is_training:
