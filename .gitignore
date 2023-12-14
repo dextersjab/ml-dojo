@@ -1,2 +1,5 @@
 .idea/
 *.iml
+
+**/wandb/*
+**/.ipynb_checkpoints/*
