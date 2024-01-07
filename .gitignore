@@ -2,4 +2,5 @@
 *.iml
 
 **/wandb/*
+**/wandb/latest-run/
 **/.ipynb_checkpoints/*
